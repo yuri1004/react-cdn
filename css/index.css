@@ -1,0 +1,37 @@
+body{
+    background-color: #333;
+}
+.custom{
+    width: 1200px;
+    background-color: #fff;
+    margin: 100px auto 0;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.pic{
+    width: 700px;
+}
+.pic>img{
+    width: 100%;
+}
+
+.selector{
+    width: 400px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.selector>p{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.selector label{
+    display: inline-block;
+    width: 130px;
+}
+.selector select{
+    width: 200px;
+    font-size: 30px;
+    line-height: 50px;
+}
